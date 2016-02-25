@@ -1,4 +1,4 @@
-Gem::Specification.new do |gem|
+Gem::Specification.new do |s|
   s.name = 'wkhtmltox-binaries'
   s.version = '0.13.0-alpha'
   s.date = Time.now.utc.strftime('%Y-%m-%d')
