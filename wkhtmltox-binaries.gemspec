@@ -1,5 +1,5 @@
 Gem::Specification.new do |gem|
-  s.name = 'money-currencylayer-bank'
+  s.name = 'wkhtmltox-binaries'
   s.version = '0.13.0-alpha'
   s.date = Time.now.utc.strftime('%Y-%m-%d')
   s.homepage = "http://github.com/phlegx/#{s.name}"
