@@ -19,7 +19,8 @@ and wkhtmltopdf project in an easily accessible package from
 * Linux (Ubuntu Precise) 	64-bit and 32-bit
 * Linux (CentOS 7) 	        64-bit
 * Linux (CentOS 6) 	        64-bit
-* The gem version is the same as the binary files version
+* The gem version is the same as the binary files version of wkhtmltox.
+* Please note that the linux builds are not headless, and will require running under **xvfb**.
 
 ## Install
 
