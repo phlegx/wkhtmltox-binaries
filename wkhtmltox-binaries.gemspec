@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
     'in an easily accessible package. '
   s.extra_rdoc_files = %w(README.md)
   s.files = `git ls-files`.split($/)
+  s.executables = s.files.grep(%r{^bin/}).map { |f| File.basename(f) }
   s.license = 'MIT'
   s.require_paths = ['lib']
   s.rubygems_version = '1.3.7'
