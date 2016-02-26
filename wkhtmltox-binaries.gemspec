@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'wkhtmltox-binaries'
-  s.version = '0.13.0.pre.alpha'
+  s.version = '0.13.0.pre.alpha.0.1'
   s.date = Time.now.utc.strftime('%Y-%m-%d')
   s.homepage = "http://github.com/phlegx/#{s.name}"
   s.authors = ['Egon Zemmer']
