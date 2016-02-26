@@ -13,12 +13,12 @@ and wkhtmltopdf project in an easily accessible package from
 
 ## Features
 
-* Linux (Debian Wheezy) 	64-bit
-* Linux (Debian Jessie) 	64-bit
-* Linux (Ubuntu Trusty) 	64-bit
-* Linux (Ubuntu Precise) 	64-bit
-* Linux (CentOS 7) 	      64-bit
-* Linux (CentOS 6) 	      64-bit
+* Linux (Debian Wheezy) 	64-bit and 32-bit
+* Linux (Debian Jessie) 	64-bit and 32-bit
+* Linux (Ubuntu Trusty) 	64-bit and 32-bit
+* Linux (Ubuntu Precise) 	64-bit and 32-bit
+* Linux (CentOS 7) 	        64-bit
+* Linux (CentOS 6) 	        64-bit
 * The gem version is the same as the binary files version
 
 ## Install
