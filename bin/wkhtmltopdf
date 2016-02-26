@@ -1,38 +1,28 @@
 #!/usr/bin/env ruby
 
+require 'os'
+
 arch = case RUBY_PLATFORM
-  when /64.*linux/
-    case `cat /etc/*release`
-    when /jessie/
-      'jessie-amd64'
-    when /wheezy/
-      'wheezy-amd64'
-    when /trusty/
-      'trusty-amd64'
-    when /precise/
-      'precise-amd64'
-    when /CentOS release 6\./
-      'centos6-amd64'
-    when /CentOS release 7\./
-      'centos7-amd64'
-    else
-      raise 'Not supported 64 bit distribution.'
-    end
   when /linux/
-    case `cat /etc/*release`
-    when /jessie/
-      'jessie-i386'
-    when /wheezy/
-      'wheezy-i386'
-    when /trusty/
-      'trusty-i386'
-    when /precise/
-      'precise-i386'
+    case OS.bits
+    when 64
+     'generic-amd64'
+    when 32
+     'generic-i386'
     else
-      raise 'Not supported 32 bit distribution.'
+     raise 'Linux bit system cannot be recognized.'
+    end
+  when /mac|darwin/
+    case OS.bits
+    when 64
+     'cocoa-x86-64'
+    when 32
+     'carbon-i386'
+    else
+     raise 'Mac bit system cannot be recognized.'
     end
   else
-    raise 'Invalid platform. Must be a Linux 32 or 64 bit system.'
+    raise 'Invalid platform. Must be a Linux or Mac 32 or 64 bit system.'
   end
 
 args = $*.map { |x| x.include?(' ') ? "'" + x + "'" : x }

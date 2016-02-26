@@ -7,19 +7,17 @@
 [![Dependency Status](https://gemnasium.com/phlegx/wkhtmltox-binaries.svg)](https://gemnasium.com/phlegx/wkhtmltox-binaries)
 [![License](https://img.shields.io/github/license/phlegx/wkhtmltox-binaries.svg)](http://opensource.org/licenses/MIT)
 
-A gem that provides Linux binaries for wkhtmltoimage
+A gem that provides Linux and Mac binaries for wkhtmltoimage
 and wkhtmltopdf project in an easily accessible package from
 [wkhtmltopdf.org](http://wkhtmltopdf.org).
 
 ## Features
 
-* Linux (Debian Wheezy) 	64-bit and 32-bit
-* Linux (Debian Jessie) 	64-bit and 32-bit
-* Linux (Ubuntu Trusty) 	64-bit and 32-bit
-* Linux (Ubuntu Precise) 	64-bit and 32-bit
-* Linux (CentOS 7) 	        64-bit
-* Linux (CentOS 6) 	        64-bit
-* The gem version is the same as the binary files version
+* Linux generic 	64-bit
+* Linux generic 	32-bit
+* Mac OS cocoa    64-bit
+* Mac OS carbon   32-bit
+* The gem version is the same as the binary files version of wkhtmltox.
 
 ## Install
 
@@ -32,7 +30,7 @@ gem install wkhtmltox-binaries
 Using Gemfile
 
 ```
-gem 'wkhtmltox-binaries', '~>0.13.0'
+gem 'wkhtmltox-binaries', '~>0.12.3'
 ```
 
 ## Refs
