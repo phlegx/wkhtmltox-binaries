@@ -1,6 +1,7 @@
 # Wkhtmltox Binaries
 
 [![Gem Version](https://badge.fury.io/rb/wkhtmltox-binaries.svg)](https://rubygems.org/gems/wkhtmltox-binaries)
+[![Gem](https://img.shields.io/gem/dt/wkhtmltox-binaries.svg?maxAge=2592000)](https://rubygems.org/gems/wkhtmltox-binaries)
 [![Build Status](https://secure.travis-ci.org/phlegx/wkhtmltox-binaries.svg?branch=master)](https://travis-ci.org/phlegx/wkhtmltox-binaries)
 [![Code Climate](http://img.shields.io/codeclimate/github/phlegx/wkhtmltox-binaries.svg)](https://codeclimate.com/github/phlegx/wkhtmltox-binaries)
 [![Inline Docs](http://inch-ci.org/github/phlegx/wkhtmltox-binaries.svg?branch=master)](http://inch-ci.org/github/phlegx/wkhtmltox-binaries)
