@@ -13,10 +13,11 @@ and wkhtmltopdf project in an easily accessible package from
 
 ## Features
 
-* Linux generic 	64-bit
-* Linux generic 	32-bit
-* Mac OS cocoa    64-bit
-* Mac OS carbon   32-bit
+* Linux Bionic 	  64-bit
+* Linux Buster 	  64-bit
+* Linux Alpine 	  64-bit
+* Linux CentOS 8 	64-bit
+* Mac OS Cocoa    64-bit
 * The gem version is the same as the binary files version of wkhtmltox.
 
 ## Install
@@ -30,7 +31,7 @@ gem install wkhtmltox-binaries
 Using Gemfile
 
 ```
-gem 'wkhtmltox-binaries', '~>0.12.3'
+gem 'wkhtmltox-binaries', '~>0.12.5'
 ```
 
 ## Refs
@@ -56,5 +57,5 @@ The MIT License
 
 All binaries of Wkhtmltopdf are under [LGPL License](https://github.com/wkhtmltopdf/wkhtmltopdf/blob/master/LICENSE)
 
-Copyright (c) 2016 Phlegx Systems OG
+Copyright (c) 2020 Phlegx Systems OG
 

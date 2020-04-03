@@ -3,29 +3,32 @@
 require 'os'
 
 arch = case RUBY_PLATFORM
-  when /linux/
-    case OS.bits
-    when 64
-     'generic-amd64'
-    when 32
-     'generic-i386'
+  when /64.*linux/
+    case `cat /etc/*release`
+    when /bionic/
+      'bionic-amd64'
+    when /buster/
+      'buster-amd64'
+    when /alpine/
+      'alpine-amd64'
+    when /CentOS release 8\./
+      'centos-x86-64'
     else
-     raise 'Linux bit system cannot be recognized.'
+      raise 'Linux system cannot be recognized.'
     end
   when /mac|darwin/
     case OS.bits
     when 64
      'cocoa-x86-64'
-    when 32
-     'carbon-i386'
     else
-     raise 'Mac bit system cannot be recognized.'
+     raise 'Mac system cannot be recognized.'
     end
   else
-    raise 'Invalid platform. Must be a Linux or Mac 32 or 64 bit system.'
+    raise 'Invalid platform. Must be a Linux or Mac 64 bit system.'
   end
 
 args = $*.map { |x| x.include?(' ') ? "'" + x + "'" : x }
 cmd = File.expand_path "#{File.dirname(__FILE__)}/../libexec/wkhtmltopdf-#{arch}"
 
 exec "#{cmd} #{args.join(' ')}"
+
