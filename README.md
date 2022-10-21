@@ -3,9 +3,8 @@
 [![Gem Version](https://badge.fury.io/rb/wkhtmltox-binaries.svg)](https://rubygems.org/gems/wkhtmltox-binaries)
 [![Gem](https://img.shields.io/gem/dt/wkhtmltox-binaries.svg?maxAge=2592000)](https://rubygems.org/gems/wkhtmltox-binaries)
 [![Build Status](https://secure.travis-ci.org/phlegx/wkhtmltox-binaries.svg?branch=master)](https://travis-ci.org/phlegx/wkhtmltox-binaries)
-[![Code Climate](http://img.shields.io/codeclimate/github/phlegx/wkhtmltox-binaries.svg)](https://codeclimate.com/github/phlegx/wkhtmltox-binaries)
+[![Code Climate](https://codeclimate.com/github/phlegx/wkhtmltox-binaries.svg)](https://codeclimate.com/github/phlegx/wkhtmltox-binaries)
 [![Inline Docs](http://inch-ci.org/github/phlegx/wkhtmltox-binaries.svg?branch=master)](http://inch-ci.org/github/phlegx/wkhtmltox-binaries)
-[![Dependency Status](https://gemnasium.com/phlegx/wkhtmltox-binaries.svg)](https://gemnasium.com/phlegx/wkhtmltox-binaries)
 [![License](https://img.shields.io/github/license/phlegx/wkhtmltox-binaries.svg)](http://opensource.org/licenses/MIT)
 
 A gem that provides Linux binaries for wkhtmltoimage
@@ -60,5 +59,5 @@ The MIT License
 
 All binaries of Wkhtmltopdf are under [LGPL License](https://github.com/wkhtmltopdf/wkhtmltopdf/blob/master/LICENSE)
 
-Copyright (c) 2016 Phlegx Systems Technologies GmbH
+Copyright (c) 2016 Phlegx Systems
 
