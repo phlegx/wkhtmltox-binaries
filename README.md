@@ -60,5 +60,5 @@ The MIT License
 
 All binaries of Wkhtmltopdf are under [LGPL License](https://github.com/wkhtmltopdf/wkhtmltopdf/blob/master/LICENSE)
 
-Copyright (c) 2016 Phlegx Systems OG
+Copyright (c) 2016 Phlegx Systems Technologies GmbH
 
